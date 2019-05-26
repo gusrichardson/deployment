@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import App from './App.vue'
 import Home from './views/Home.vue';
 import About from './views/About.vue';
+import Authors from './views/Authors.vue';
 
 Vue.config.productionTip = false
 
@@ -19,6 +20,11 @@ const routes = [
     path: '/About',
     name: 'About',
     component: About
+  },
+  {
+    path: '/Authors',
+    name: 'Authors',
+    component: Authors
   }
 ]
 

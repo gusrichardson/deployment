@@ -1,6 +1,7 @@
 <template>
   <div class="about">
     <h1>this is the about section</h1>
+    <img src="../assets/dog.jpg" alt="dog">
   </div>
 </template>
 
@@ -10,7 +11,11 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+img {
+  width: 100px;
+  height: 100px;
+}
 </style>
 
 

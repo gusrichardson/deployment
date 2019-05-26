@@ -2,6 +2,7 @@
   <div id="app">
     <Header/>
     <router-view/>
+    <Footer/>
     <!-- <HelloWorld msg="This is a minor change"/> -->
   </div>
 </template>
@@ -9,11 +10,13 @@
 <script>
 // import HelloWorld from "./components/HelloWorld.vue";
 import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "app",
   components: {
-    Header
+    Header,
+    Footer
   }
 };
 </script>
@@ -190,7 +193,9 @@ input::-moz-focus-inner {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
+  background: #c7f9f9;
+  text-align: left;
 }
 h1,
 h2,

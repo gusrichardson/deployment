@@ -2,10 +2,7 @@
   <div id="header">
     <div class="wrapper">
       <div class="title-container">
-        <h1>
-          Funny pages
-          <!-- <img src="../../assets/book.svg" alt="book logo" id="book-logo"> -->
-        </h1>
+        <h1>Funny pages</h1>
         <h3 class="subtitle">
           Celebrating books that make kids laugh
           <span class="emoji">🤣</span>

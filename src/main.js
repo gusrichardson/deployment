@@ -4,6 +4,8 @@ import App from './App.vue'
 import Home from './views/Home.vue';
 import About from './views/About.vue';
 import Authors from './views/Authors.vue';
+import Teachers from './views/Teachers.vue';
+import Partners from './views/Partners.vue';
 
 Vue.config.productionTip = false
 
@@ -25,6 +27,16 @@ const routes = [
     path: '/Authors',
     name: 'Authors',
     component: Authors
+  },
+  {
+    path: '/Teachers',
+    name: 'Teachers',
+    component: Teachers
+  },
+  {
+    path: '/Partners',
+    name: 'Partners',
+    component: Partners
   }
 ]
 

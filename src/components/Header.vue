@@ -12,6 +12,8 @@
         <router-link to="/">Home</router-link>
         <router-link to="/about">About</router-link>
         <router-link to="/authors">Authors</router-link>
+        <router-link to="/teachers">Teachers</router-link>
+        <router-link to="/partners">Partners</router-link>
       </div>
     </div>
   </div>

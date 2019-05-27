@@ -43,9 +43,12 @@ export default {
 }
 #partners-banner {
   height: 400px;
-  background-image: url("../assets/library.jpg");
+  background-image: url(../assets/banner-sprite-min.jpg);
+  background-position: 1025px -140px;
+  background-size: 482%;
+  /* background-image: url("../assets/library.jpg");
   background-size: cover;
-  background-position: 0% 60%;
+  background-position: 0% 60%; */
 }
 .image-grid {
   display: flex;

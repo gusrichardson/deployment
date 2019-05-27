@@ -43,9 +43,12 @@ export default {
 }
 #teachers-banner {
   height: 400px;
-  background-image: url("../assets/kids-laughing.jpg");
+  background-image: url(../assets/banner-sprite-min.jpg);
+  background-position: -2795px -130px;
+  background-size: 484%;
+  /* background-image: url("../assets/kids-laughing.jpg");
   background-size: cover;
-  background-position: 0 20%;
+  background-position: 0 20%; */
 }
 .teachers-flex {
   display: flex;

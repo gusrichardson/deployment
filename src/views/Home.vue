@@ -29,9 +29,12 @@ export default {
 <style scoped>
 #banner {
   height: 400px;
-  background-image: url(../assets/strange-animals.jpg);
+  background-image: url(../assets/banner-sprite-min.jpg);
+  background-position: -120px 50%;
+  background-size: 800%;
+  /* background-image: url(../assets/strange-animals.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .home-text {

@@ -155,10 +155,13 @@ export default {
   margin-left: 30px;
 }
 #authors-banner {
-  background-image: url("../assets/books.jpg");
+  /* background-image: url("../assets/books.jpg"); */
   height: 400px;
-  background-size: cover;
-  background-position: 0 90%;
+  /* background-size: cover;
+  background-position: 0 90%; */
+  background-image: url("../assets/banner-sprite-min.jpg");
+  background-position: -1755px -220px;
+  background-size: 480%;
   margin-bottom: 30px;
 }
 .author-container {

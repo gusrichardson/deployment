@@ -40,10 +40,13 @@ export default {
 }
 #about-banner {
   height: 400px;
-  background-image: url(../assets/school-girls.jpg);
+  background-image: url(../assets/banner-sprite-min.jpg);
+  background-position: -800px -140px;
+  background-size: 500%;
+  /* background-image: url(../assets/school-girls.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 30%;
+  background-position: 0 30%; */
   /* margin-bottom: 30px; */
 }
 </style>

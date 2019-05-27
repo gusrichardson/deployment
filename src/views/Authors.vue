@@ -162,9 +162,12 @@ export default {
   /* background-image: url("../assets/banner-sprite-min.jpg");
   background-position: -1755px -220px;
   background-size: 480%; */
-  background-image: url(../assets/authors-image.jpg);
+  /* background-image: url(../assets/authors-image.jpg);
   background-size: cover;
-  background-position: 0 26%;
+  background-position: 0 26%; */
+  background-image: url(../assets/new-authors.jpg);
+  background-size: cover;
+  background-position: 50% 60%;
   margin-bottom: 30px;
 }
 .author-container {

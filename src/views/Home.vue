@@ -3,7 +3,7 @@
     <div class="wrapper">
       <div id="banner"></div>
       <div class="home-text">
-        <h2>Welcome to Funny Pages!</h2>
+        <h2>Welcome to the Funny Pages Festival!</h2>
         <br>
         <p>Join us this summer for the first annual “Funny Pages”, a day of workshops, presentations and lots and lots of laughing.</p>
         <br>

@@ -194,7 +194,9 @@ input::-moz-focus-inner {
   text-align: center;
   color: #2c3e50;
   /* margin-top: 60px; */
-  background: #c7f9f9;
+  /* background: #c7f9f9; */
+  /* background: #68d0d0; */
+  background: #96eaea;
   text-align: left;
 }
 h1,

@@ -4,7 +4,7 @@
       <div class="title-container">
         <h1>Funny pages</h1>
         <h3 class="subtitle">
-          Celebrating books that make kids laugh
+          An all day festival of books that make kids laugh
           <span class="emoji">🤣</span>
         </h3>
       </div>
@@ -62,7 +62,8 @@ export default {
   height: 250px;
   /* border: 10px solid cornflowerblue; */
   display: flex;
-  background: linear-gradient(180deg, #fffdf8, #c7f9f9);
+  /* background: linear-gradient(180deg, #fffdf8, #c7f9f9); */
+  background: linear-gradient(180deg, #fffdf8, #96eaea);
   /* background: #fffdf8; */
   /* background: url(../../assets/cheese.svg);
   background-size: cover; */

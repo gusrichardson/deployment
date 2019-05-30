@@ -2,7 +2,10 @@
   <div id="header">
     <div class="wrapper">
       <div class="title-container">
-        <h1>Funny pages</h1>
+        <h1>
+          Funny
+          <span class="mobile">pages</span>
+        </h1>
         <h3 class="subtitle">
           An all day festival of books that make kids laugh
           <span class="emoji">🤣</span>
@@ -33,12 +36,9 @@ export default {
 
 #header h3 {
   color: #ff4f4f;
-  /* color: #42b4b4; */
   font-size: 1.5rem;
   letter-spacing: 1px;
   font-style: italic;
-  /* text-shadow: none; */
-  /* margin-top: 3px; */
 }
 .emoji {
   font-size: 2rem;
@@ -60,14 +60,8 @@ export default {
 }
 #header {
   height: 250px;
-  /* border: 10px solid cornflowerblue; */
   display: flex;
-  /* background: linear-gradient(180deg, #fffdf8, #c7f9f9); */
   background: linear-gradient(180deg, #fffdf8, #96eaea);
-  /* background: #fffdf8; */
-  /* background: url(../../assets/cheese.svg);
-  background-size: cover; */
-  /* background: #ffdd9a; */
 }
 
 .title-container {
@@ -78,27 +72,22 @@ export default {
 }
 
 #nav {
-  /* border: 2px solid green; */
   position: relative;
   height: 60px;
 }
 
 #nav a {
-  width: 200px;
+  width: 20%;
   display: inline-block;
-  /* border: 1px solid red; */
   text-align: center;
   height: 50px;
   padding-top: 18px;
-  /* background: #c7f9f9; */
   background: #ffeecc;
-  /* border-right: 5px solid #ff4f4f; */
 }
 
 #nav a:hover {
   background: #ffdd9a;
   letter-spacing: 2px;
-  /* background: #fff; */
 }
 
 #nav a:nth-child(1) {
@@ -106,6 +95,66 @@ export default {
 }
 #nav a:nth-child(5) {
   border-radius: 0 10px 0 0;
+}
+@media (max-width: 700px) {
+  .mobile {
+    display: block;
+  }
+  #header {
+    height: 260px;
+    text-align: center;
+  }
+  .title-container {
+    height: 210px;
+    padding-top: 40px;
+  }
+  .emoji {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .emoji {
+    display: none;
+  }
+  #header {
+    height: 260px;
+    text-align: center;
+  }
+  #header h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .title-container {
+    height: 210px;
+    padding-top: 40px;
+  }
+  #nav a:hover {
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 375px) {
+  .emoji {
+    display: none;
+  }
+  #header {
+    height: 260px;
+    text-align: center;
+  }
+  #header h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .title-container {
+    height: 210px;
+    padding-top: 40px;
+  }
+  #nav a {
+    width: 20%;
+  }
+  #nav a:hover {
+    letter-spacing: 1px;
+  }
 }
 </style>
 

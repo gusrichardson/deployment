@@ -141,7 +141,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .bold {
   font-weight: bold;
   color: #ff4f4f;
@@ -155,16 +155,7 @@ export default {
   margin-left: 30px;
 }
 #authors-banner {
-  /* background-image: url("../assets/books.jpg"); */
   height: 400px;
-  /* background-size: cover;
-  background-position: 0 90%; */
-  /* background-image: url("../assets/banner-sprite-min.jpg");
-  background-position: -1755px -220px;
-  background-size: 480%; */
-  /* background-image: url(../assets/authors-image.jpg);
-  background-size: cover;
-  background-position: 0 26%; */
   background-image: url(../assets/new-authors.jpg);
   background-size: cover;
   background-position: 50% 60%;
@@ -193,8 +184,6 @@ export default {
 .auth-image {
   width: 300px;
   height: 400px;
-  /* box-shadow: 10px 10px #ffdd9a; */
-  /* border: 2px solid red; */
 }
 .auth-image:nth-child(1) {
   background-size: 100% auto;
@@ -208,18 +197,78 @@ export default {
   box-shadow: -15px 15px #ffdd9a;
 }
 
-/* 
-.auth-image img:nth-of-type(odd) {
-  box-shadow: -15px 15px #ffdd9a;
-} */
-
-/* .auth-image:nth-of-type(2) {
-  box-shadow: -10px 10px #ffdd9a;
-} */
-
 .auth-image img {
   max-width: 100%;
   display: block;
+}
+
+@media (max-width: 1000px) {
+  #authors-section .wrapper {
+    padding-bottom: 40px;
+  }
+  .author-container {
+    height: auto;
+    margin-top: 30px;
+  }
+  .auth-text {
+    height: auto;
+  }
+  .auth-image {
+    width: 225px;
+    height: 300px;
+    margin-top: 20px;
+  }
+  .auth-text {
+    width: calc(100% - 225px);
+  }
+}
+
+@media (max-width: 700px) {
+  #authors-banner {
+    height: 300px;
+  }
+  .auth-text {
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+  }
+  .auth-image {
+    max-width: 225px;
+    height: 300px;
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+
+  .auth-image img {
+    max-width: 225px;
+    display: block;
+  }
+  .author-container {
+    height: auto;
+    flex-direction: column;
+  }
+  .author-container:nth-child(even) {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  #authors-banner {
+    height: 250px;
+  }
+}
+
+@media (max-width: 375px) {
+  .left {
+    margin-left: 30px;
+  }
+  .right {
+    margin-left: 15px;
+  }
 }
 </style>
 

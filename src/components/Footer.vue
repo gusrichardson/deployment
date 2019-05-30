@@ -140,4 +140,43 @@ footer {
 h3 {
   color: white;
 }
+
+@media (max-width: 1000px) {
+  .footer-flex-container {
+    flex-wrap: wrap;
+  }
+  .newsletter-container {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .contact-container,
+  .social-media-container {
+    width: 50%;
+    text-align: center;
+  }
+  .social-media-container {
+    /* text-align: right; */
+  }
+}
+@media (max-width: 700px) {
+  footer {
+    padding-top: 0px;
+  }
+  .footer-flex-container {
+    flex-direction: column;
+  }
+  .contact-container,
+  .newsletter-container,
+  .social-media-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .social-icons i {
+    font-size: 2rem;
+  }
+}
 </style>

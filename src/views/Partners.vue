@@ -46,9 +46,6 @@ export default {
   background-image: url(../assets/banner-sprite-min.jpg);
   background-position: 1025px -140px;
   background-size: 482%;
-  /* background-image: url("../assets/library.jpg");
-  background-size: cover;
-  background-position: 0% 60%; */
 }
 .image-grid {
   display: flex;
@@ -57,13 +54,68 @@ export default {
   justify-content: space-between;
 }
 .partner-image {
-  width: 300px;
+  width: 200px;
   /* border: 1px solid red; */
   height: 200px;
+  flex-grow: 1 25%;
 }
 
 .partner-image img {
   max-width: 100%;
   max-height: 100%;
+}
+
+@media (max-width: 1000px) {
+  #partners-banner {
+    background-position: 718px -40px;
+    background-size: 482%;
+  }
+}
+
+@media (max-width: 700px) {
+  h2 {
+    text-align: center;
+  }
+  #partners-banner {
+    background-position: 670px -90px;
+    background-size: 800%;
+  }
+}
+
+@media (max-width: 500px) {
+  #partners-banner {
+    height: 250px;
+    background-position: 510px -70px;
+    background-size: 640%;
+  }
+  .partners-gallery {
+    text-align: center;
+    padding: 20px 15px;
+  }
+  .image-grid {
+    display: block;
+    width: 100%;
+  }
+  .partner-image {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 430px) {
+  #partners-banner {
+    height: 250px;
+    background-position: 420px -30px;
+    background-size: 640%;
+  }
+}
+
+@media (max-width: 375px) {
+  #partners-banner {
+    height: 250px;
+    background-position: -2080px -50px;
+    background-size: 750%;
+  }
 }
 </style>

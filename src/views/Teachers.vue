@@ -46,14 +46,10 @@ export default {
   background-image: url(../assets/banner-sprite-min.jpg);
   background-position: -2795px -130px;
   background-size: 484%;
-  /* background-image: url("../assets/kids-laughing.jpg");
-  background-size: cover;
-  background-position: 0 20%; */
 }
 .teachers-flex {
   display: flex;
   margin-top: 10px;
-  /* border: 1px solid red; */
 }
 .text-container {
   width: 500px;
@@ -62,7 +58,6 @@ export default {
 .gallery-container {
   width: 500px;
   height: 400px;
-  /* border: 1px solid red; */
   display: grid;
   grid-template-rows: 190px 190px;
   grid-template-columns: 280px 210px;
@@ -75,7 +70,6 @@ export default {
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 1;
-  /* border: 1px solid blue; */
   overflow: hidden;
 }
 .one img {
@@ -106,5 +100,84 @@ export default {
   max-width: 100%;
   display: block;
   margin-top: 35px;
+}
+
+@media (max-width: 1000px) {
+  #teachers-banner {
+    background-position: -2490px -110px;
+    background-size: 610%;
+  }
+  .three {
+    display: none;
+  }
+  .gallery-container {
+    width: 280px;
+    grid-template-columns: 280px;
+    grid-template-rows: 190px 190px;
+  }
+}
+
+@media (max-width: 700px) {
+  #teachers-banner {
+    background-position: 1755px -120px;
+    background-size: 800%;
+  }
+}
+@media (max-width: 600px) {
+  #teachers-banner {
+    background-position: 1610px -115px;
+    background-size: 900%;
+  }
+  .gallery-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .text-container {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  #teachers-banner {
+    height: 250px;
+    background-position: -2370px -120px;
+    background-size: 900%;
+  }
+  .teachers-flex {
+    display: block;
+    margin-top: 0;
+  }
+  .teachers-text {
+    padding: 20px 15px;
+  }
+
+  .teachers-flex br {
+    display: none;
+  }
+
+  .one {
+    display: none;
+  }
+  .two {
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  #teachers-banner {
+    height: 250px;
+    background-position: -1800px -80px;
+    background-size: 800%;
+  }
+}
+@media (max-width: 375px) {
+  #teachers-banner {
+    height: 250px;
+    background-position: -1580px -70px;
+    background-size: 800%;
+    /* background-position: -420px 50%; */
+  }
 }
 </style>

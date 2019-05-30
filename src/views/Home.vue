@@ -42,5 +42,37 @@ export default {
   background: #fffdf8;
   border-radius: 0 0 10px 10px;
 }
+
+@media (max-width: 1000px) {
+  #banner {
+    background-position: -90px 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  #banner {
+    height: 300px;
+    background-position: -80px 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    text-align: center;
+  }
+  #banner {
+    height: 250px;
+    background-size: 700%;
+    background-position: -20px 50%;
+  }
+}
+
+@media (max-width: 375px) {
+  #banner {
+    height: 250px;
+    background-size: 700%;
+    background-position: -20px 50%;
+  }
+}
 </style>
 

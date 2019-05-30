@@ -49,6 +49,46 @@ export default {
   background-position: 0 30%; */
   /* margin-bottom: 30px; */
 }
+
+@media (max-width: 1000px) {
+  #about-banner {
+    background-size: 700%;
+    background-position: -800px 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  #about-banner {
+    background-position: -800px -140px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  #about-banner {
+    background-position: -630px 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    text-align: center;
+  }
+  #about-banner {
+    height: 250px;
+    background-size: 700%;
+    background-position: -510px 50%;
+  }
+  .about-text {
+    padding: 20px 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  #about-banner {
+    background-position: -420px 50%;
+  }
+}
 </style>
 
 

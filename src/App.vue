@@ -257,4 +257,54 @@ input {
   font-weight: bold;
   color: #ff4f4f;
 }
+@media (max-width: 1000px) {
+  .wrapper {
+    width: 700px;
+  }
+}
+
+@media (max-width: 700px) {
+  a {
+    font-size: 1rem;
+  }
+  .wrapper {
+    width: 95%;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 100%;
+  }
+  a {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 100%;
+  }
+  a {
+    font-size: 0.7rem;
+  }
+}
 </style>
